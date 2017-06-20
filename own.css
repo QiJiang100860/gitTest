@@ -29,12 +29,18 @@ button{
 }
 .btn_box{
     text-align: center;
-    font-size: 0;
     margin:20px;
+    position: relative;
+}
+.btn_box>div{
+    position: absolute;
+    left: 500px;
+    top: 5px;
 }
 .btn_box button{
     border:solid 1px #1976d2;
     color: #1976d2;
     padding: 5px 10px;
     font-size: 18px;
+    cursor: pointer;
 }
